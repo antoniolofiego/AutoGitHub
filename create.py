@@ -10,8 +10,8 @@ from github import Github
 
 def _create_github():
     """
-        Creates a repository on GitHub through the PyGithub library, which uses the GitHub REST API v3.
-        It is not meant to be used on its own, but in conjunction with the AutoGitHub utility.
+        Creates a repository on GitHub through the PyGithub library, which is a Python interface to the GitHub REST API v3.
+        https://github.com/PyGithub/PyGithub
     """
     with open('credentials.json', 'r')  as f:
         access_token = json.load(f)[sys.argv[1]]
