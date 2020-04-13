@@ -19,9 +19,7 @@ Change the ```credentials.json``` file with your GitHub username and access toke
 
 It should look like:
 ```
-{
-    "YOUR-GITHUB-USERNAME": "YOUR-GITHUB-ACCESS-TOKEN" 
-}
+{ "YOUR-GITHUB-USERNAME": "YOUR-GITHUB-ACCESS-TOKEN" }
 ```
 
 To use it, you can run the following code:
